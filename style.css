@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.hero {
+    width: 100%;
+}
+
+.row {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 45%;
+}
+
+.slider {
+    height: 80vh;
+    display: flex;
+}
+
+.product img {
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover {
+    opacity: 1;
+}
+
+.preview img {
+    height: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.brand {
+    mask-border-width: 12px;
+    background: #c1da5f;
+    color: #824474;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+h2 {
+    font-size: 45px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.rating {
+    display: flex;
+    height: 15px;
+}
+
+.rating .fa {
+    color: #008000;
+}
+
+.price {
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+input {
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e68a00; 
+}
+
+button .fa {
+    margin-right: 10px;
+}
+
+.related {
+    width: 90%;
+    margin: 40px auto 0;
+}
+
+.related h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif; 
+    font-size: 32px; 
+    color: #333; 
+}
+
+.related .row {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.columns {
+    flex-basis: 22%;
+    margin-bottom: 20px; 
+}
+
+.items {
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    padding: 10px; 
+    background: #fff; 
+}
+
+.items img {
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.details {
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+.details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.details .rating {
+    margin: 10px 0;
+}
